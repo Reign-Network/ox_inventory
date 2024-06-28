@@ -43,4 +43,10 @@ return {
             end
         }
     },
+
+    ['spikestrip'] = {
+        label = 'Spike strip',
+        weight = 500,
+        stack = true
+    }
 }
