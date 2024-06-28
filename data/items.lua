@@ -45,7 +45,7 @@ return {
     },
 
     ['spikestrip'] = {
-        label = 'Spike strip',
+        label = 'Spygliai',
         weight = 500,
         stack = true
     }
