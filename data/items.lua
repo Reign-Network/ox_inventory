@@ -1,4 +1,58 @@
 return {
+    ['radio_default'] = {
+        label = 'Radio Black',
+        weight = 200,
+        client = {
+            export = "fd_radio.useRadioDefault",
+        }
+    },
+    ['radio_red'] = {
+        label = 'Radio Red',
+        weight = 200,
+        client = {
+            export = "fd_radio.useRadioRed",
+        }
+    },
+    ['radio_blue'] = {
+        label = 'Radio Blue',
+        weight = 200,
+        client = {
+            export = "fd_radio.useRadioBlue",
+        }
+    },
+    ['radio_green'] = {
+        label = 'Radio Green',
+        weight = 200,
+        client = {
+            export = "fd_radio.useRadioGreen",
+        }
+    },
+    ['radio_yellow'] = {
+        label = 'Radio Yellow',
+        weight = 200,
+        client = {
+            export = "fd_radio.useRadioYellow",
+        }
+    },
+    ['radio_white'] = {
+        label = 'Radio White',
+        weight = 200,
+        client = {
+            export = "fd_radio.useRadioWhite",
+        }
+    },
+    ['radio_jammer'] = {
+        label = 'Jammer',
+        weight = 200,
+        client = {
+            export = "fd_radio.useJammer",
+        }
+    },
+    ['radio_antenna'] = {
+        label = "Radio Antenna",
+        weight = 200,
+    },
+
     -- Ambulance items
     ['medikit'] = { label = 'Medicininis Rinkinys', weight = 2500, stack = true, close = true, description = 'Neskaityk instrukcijų: Laikas brangus, tiesiog griebk ir tvarkyk!' },
     ['medbag'] = { label = 'Medicininis Krepšys', weight = 2500, stack = true, close = true, description = 'Jame yra visa pirmosios pagalbos rinkinio įranga, taip pat ir papildomi įrankiai' },
@@ -48,5 +102,5 @@ return {
         label = 'Spygliai',
         weight = 500,
         stack = true
-    }
+    },
 }
