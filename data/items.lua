@@ -3,53 +3,53 @@ return {
         label = 'Radio Black',
         weight = 200,
         client = {
-            export = "fd_radio.useRadioDefault",
+            export = 'fd_radio.useRadioDefault',
         }
     },
     ['radio_red'] = {
         label = 'Radio Red',
         weight = 200,
         client = {
-            export = "fd_radio.useRadioRed",
+            export = 'fd_radio.useRadioRed',
         }
     },
     ['radio_blue'] = {
         label = 'Radio Blue',
         weight = 200,
         client = {
-            export = "fd_radio.useRadioBlue",
+            export = 'fd_radio.useRadioBlue',
         }
     },
     ['radio_green'] = {
         label = 'Radio Green',
         weight = 200,
         client = {
-            export = "fd_radio.useRadioGreen",
+            export = 'fd_radio.useRadioGreen',
         }
     },
     ['radio_yellow'] = {
         label = 'Radio Yellow',
         weight = 200,
         client = {
-            export = "fd_radio.useRadioYellow",
+            export = 'fd_radio.useRadioYellow',
         }
     },
     ['radio_white'] = {
         label = 'Radio White',
         weight = 200,
         client = {
-            export = "fd_radio.useRadioWhite",
+            export = 'fd_radio.useRadioWhite',
         }
     },
     ['radio_jammer'] = {
         label = 'Jammer',
         weight = 200,
         client = {
-            export = "fd_radio.useJammer",
+            export = 'fd_radio.useJammer',
         }
     },
     ['radio_antenna'] = {
-        label = "Radio Antenna",
+        label = 'Radio Antenna',
         weight = 200,
     },
 
@@ -88,12 +88,12 @@ return {
         stack = false,
         consume = 0,
         client = {
-            export = "lb-phone.UsePhoneItem",
+            export = 'lb-phone.UsePhoneItem',
             remove = function()
-                TriggerEvent("lb-phone:itemRemoved")
+                TriggerEvent('lb-phone:itemRemoved')
             end,
             add = function()
-                TriggerEvent("lb-phone:itemAdded")
+                TriggerEvent('lb-phone:itemAdded')
             end
         }
     },
@@ -103,4 +103,34 @@ return {
         weight = 500,
         stack = true
     },
+
+    ['handcuffs'] = {
+		label = 'Antrankiai',
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+            export = 'rg-interactions.CuffPlayer'
+		},
+	},
+
+	['scissors'] = {
+		label = 'Žirklės',
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+            export = 'rg-interactions.CutZipties'
+		},
+	},
+	
+	['zipties'] = {
+		label = 'Zateškės',
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+            export = 'rg-interactions.ZiptiePlayer'
+		},
+	},
 }
