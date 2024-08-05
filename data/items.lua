@@ -11,6 +11,11 @@ return {
         }
     },
 
+    ['money'] = {
+        label = 'Pinigai',
+        description = 'Pinigai',
+    },
+
     ['phone'] = {
         label = 'Telefonas',
         weight = 190,
